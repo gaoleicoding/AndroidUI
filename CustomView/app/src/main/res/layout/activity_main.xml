@@ -23,12 +23,22 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/dispatch" />
+
     <Button
+        android:id="@+id/infiniteviewpager"
         style="@style/buttonStyle"
         android:onClick="skipToViewPager"
         android:text="@string/viewpager"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview" />
+
+    <Button
+        style="@style/buttonStyle"
+        android:onClick="skipToCalculator"
+        android:text="Calculator"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/infiniteviewpager" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

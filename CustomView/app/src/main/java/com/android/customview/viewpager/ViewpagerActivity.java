@@ -46,7 +46,7 @@ public class ViewpagerActivity extends Activity implements ViewPager.OnPageChang
 //        // 添加viewpager多出的两个view
         totalLength = pics.length + 2;
 //        for (int i = 0; i < length; i++) {
-//            ImageView imageView = new ImageView(ViewpagerActivity.this);
+//            ImageView imageView = new ImageView(CalculatorActivity.this);
 //            ViewGroup.LayoutParams viewPagerImageViewParams = new ViewGroup.LayoutParams(
 //                    ViewGroup.LayoutParams.MATCH_PARENT,
 //                    ViewGroup.LayoutParams.MATCH_PARENT);
