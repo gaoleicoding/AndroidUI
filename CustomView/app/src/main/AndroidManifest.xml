@@ -18,7 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".dispatch.TextActivity"/>
+        <activity android:name=".touchevent.TextActivity" />
+        <activity android:name=".viewpager.ViewpagerActivity" />
+        <activity android:name=".viewpager.ViewpagerActivity2" />
     </application>
 
 </manifest>

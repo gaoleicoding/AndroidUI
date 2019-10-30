@@ -16,11 +16,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/textview"
         style="@style/buttonStyle"
         android:onClick="skipToText"
         android:text="@string/text"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/dispatch" />
+    <Button
+        style="@style/buttonStyle"
+        android:onClick="skipToViewPager"
+        android:text="@string/viewpager"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

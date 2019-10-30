@@ -4,8 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.android.customview.dispatch.DispatchActivity
-import com.android.customview.dispatch.TextActivity
+import com.android.customview.touchevent.DispatchActivity
+import com.android.customview.touchevent.TextActivity
+import com.android.customview.viewpager.ViewpagerActivity
+import com.android.customview.viewpager.ViewpagerActivity2
 
 
 class MainActivity : AppCompatActivity() {
@@ -23,5 +25,9 @@ class MainActivity : AppCompatActivity() {
 
     fun skipToText(view: View) {
         startActivity(Intent(this, TextActivity::class.java))
+    }
+
+    fun skipToViewPager(view: View) {
+        startActivity(Intent(this, ViewpagerActivity2::class.java))
     }
 }
