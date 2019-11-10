@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CustomView</string>
+    <string name="app_name">自定义View</string>
     <string name="dispatch">DispatchActivity</string>
     <string name="text">TextActivity</string>
     <string name="viewpager">InfiniteViewPager</string>

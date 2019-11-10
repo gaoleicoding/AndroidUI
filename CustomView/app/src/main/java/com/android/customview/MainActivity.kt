@@ -4,10 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.android.customview.activitypart.PartActivity
 import com.android.customview.calculator.CalculatorActivity
 import com.android.customview.touchevent.DispatchActivity
 import com.android.customview.touchevent.TextActivity
-import com.android.customview.viewpager.ViewpagerActivity
 import com.android.customview.viewpager.ViewpagerActivity2
 
 
@@ -34,5 +34,9 @@ class MainActivity : AppCompatActivity() {
 
     fun skipToCalculator(view: View) {
         startActivity(Intent(this, CalculatorActivity::class.java))
+    }
+
+    fun skipToPartActivity(view: View) {
+        startActivity(Intent(this, PartActivity::class.java))
     }
 }
