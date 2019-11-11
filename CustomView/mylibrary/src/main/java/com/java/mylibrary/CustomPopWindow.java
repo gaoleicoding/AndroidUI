@@ -46,7 +46,7 @@ public class CustomPopWindow extends PopupWindow {
         //设置SelectPicPopupWindow的View
         this.setContentView(mMenuView);
         //设置SelectPicPopupWindow弹出窗体的宽
-        this.setWidth(600);
+        this.setWidth(720);
         //设置SelectPicPopupWindow弹出窗体的高
         this.setHeight(ViewGroup.LayoutParams.MATCH_PARENT);
 //        this.setAnimationStyle(R.style.AnimBottom);

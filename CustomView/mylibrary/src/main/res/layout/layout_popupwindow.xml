@@ -19,7 +19,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/tv_two"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="国家" />
+        android:text="国家" />
 
     <TextView
         android:id="@+id/tv_two"
@@ -34,7 +34,7 @@
         app:layout_constraintLeft_toRightOf="@id/tv_one"
         app:layout_constraintRight_toRightOf="@id/tv_three"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="联盟" />
+        android:text="联盟" />
 
     <TextView
         android:id="@+id/tv_three"
@@ -49,7 +49,7 @@
         app:layout_constraintLeft_toRightOf="@id/tv_two"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="其它" />
+        android:text="其它" />
     <!--有需要可以自己再添加多个操作项-->
     <ScrollView
         android:layout_width="match_parent"

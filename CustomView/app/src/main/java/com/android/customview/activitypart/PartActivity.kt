@@ -11,6 +11,7 @@ import android.view.Window.FEATURE_NO_TITLE
 import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.java.mylibrary.ChatTransActivity
 import com.java.mylibrary.CustomPopWindow
 import com.java.mylibrary.FloatWindow
 import com.java.mylibrary.InfoDialog
@@ -45,7 +46,12 @@ class PartActivity : AppCompatActivity() {
 
     fun openChat(view: View) {
 
-        showWindow()
+//        showWindow()
+//        showCustomPopup()
+        showChatTransActivity()
+    }
+    fun showChatTransActivity() {
+        startActivity(Intent(this, ChatTransActivity::class.java))
     }
 
     fun showCustomPopup() {
@@ -67,7 +73,7 @@ class PartActivity : AppCompatActivity() {
             })
         mBottomSelectorPopDialog.showAtLocation(
             findViewById(com.android.customview.R.id.container),
-            Gravity.RIGHT,
+            Gravity.LEFT,
             0,
             0
         )

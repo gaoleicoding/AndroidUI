@@ -2,7 +2,6 @@ package com.java.mylibrary;
 
 import android.content.Context;
 import android.graphics.PixelFormat;
-import android.graphics.Point;
 import android.os.Build;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -33,7 +32,8 @@ public class FloatWindow {
 
     public void showWindow(Context context) {
         if (windowManager == null) {
-            windowManager = (WindowManager) context.getApplicationContext().getSystemService(Context.WINDOW_SERVICE);
+//            windowManager = (WindowManager) context.getApplicationContext().getSystemService(Context.WINDOW_SERVICE);
+            windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
         }
 
 //        Point size = new Point();
@@ -42,21 +42,20 @@ public class FloatWindow {
         mParams = new WindowManager.LayoutParams();
 //        mParams.alpha=0.5f;
         mParams.packageName = context.getPackageName();
-        mParams.width = DensityUtil.dip2px(context,200);
+        mParams.width = DensityUtil.dip2px(context,240);
         mParams.height = WindowManager.LayoutParams.MATCH_PARENT;
         mParams.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL
                 | WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE | WindowManager.LayoutParams.FLAG_LAYOUT_INSET_DECOR
-                | WindowManager.LayoutParams.FLAG_DIM_BEHIND;
+                | WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN;
         // 设置浮动窗口不可聚焦（实现操作除浮动窗口外的其他可见窗口的操作）
 //        mParams.flags = WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE;
 //        mParams.type = WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY;
-        mParams.type = WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY;
-        mParams.type = (Build.VERSION.SDK_INT >= 19 && Build.VERSION.SDK_INT <= 24) ? WindowManager.LayoutParams.TYPE_TOAST : WindowManager.LayoutParams.TYPE_PHONE;
+        mParams.type = (Build.VERSION.SDK_INT < 26) ? WindowManager.LayoutParams.TYPE_SYSTEM_ALERT : WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY;
         mParams.format = PixelFormat.TRANSLUCENT;
 //      mParams.softInputMode = WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE |
 //                WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN;
         mParams.gravity = Gravity.END | Gravity.TOP;
-        mParams.dimAmount=0.5f;
+//        mParams.dimAmount=0.5f;
         LayoutInflater inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         mMenuView = inflater.inflate(R.layout.layout_window, null);
