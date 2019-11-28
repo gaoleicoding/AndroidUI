@@ -1,5 +1,6 @@
 package com.android.customview.activitypart
 
+import android.animation.ObjectAnimator
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
@@ -15,6 +16,7 @@ import com.java.mylibrary.ChatTransActivity
 import com.java.mylibrary.CustomPopWindow
 import com.java.mylibrary.FloatWindow
 import com.java.mylibrary.InfoDialog
+import kotlinx.android.synthetic.main.activity_part.*
 
 
 class PartActivity : AppCompatActivity() {
@@ -25,8 +27,11 @@ class PartActivity : AppCompatActivity() {
         requestWindowFeature(FEATURE_NO_TITLE);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(com.android.customview.R.layout.activity_part)
-
+        val animator = ObjectAnimator.ofFloat(bt_right, "rotation", 0f, 3600f)
+        animator.duration = 50000
+        animator.start()
     }
+
 
     fun showUp(view: View) {
         Toast.makeText(this, "上", Toast.LENGTH_SHORT).show()

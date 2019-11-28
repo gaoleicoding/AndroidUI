@@ -3,9 +3,10 @@ package com.java.mylibrary
 import android.app.Activity
 import android.os.Bundle
 import android.view.View
+import androidx.fragment.app.FragmentActivity
 
 
-class ChatTransActivity : Activity() {
+class ChatTransActivity : FragmentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
