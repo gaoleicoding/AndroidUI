@@ -65,19 +65,6 @@ public class AudioRecorderButton extends Button implements AudioManager.AudioSta
         });
     }
 
-    /**
-     * 录音完成后的回调
-     */
-    public interface AudioFinishRecorderListener {
-        //时长  和 文件
-        void onFinish(float seconds, String filePath);
-    }
-
-    private AudioFinishRecorderListener mListener;
-
-    public void setAudioFinishRecorderListener(AudioFinishRecorderListener listener) {
-        mListener = listener;
-    }
 
     //获取音量大小的Runnable
     private Runnable mGetVoiceLevelRunnable = new Runnable() {
@@ -175,16 +162,9 @@ public class AudioRecorderButton extends Button implements AudioManager.AudioSta
                         mListener.onFinish(mTime, mAudioManager.getCurrentFilePath());
                     }
 
-
-                } else if (mCurState == STATE_RECORDING) {
-
-                    mDialogManager.dimissDialog();
-                    //release
-                    //callbacktoAct
                 } else if (mCurState == STATE_WANT_TO_CANCEL) {
                     mDialogManager.dimissDialog();
                     mAudioManager.cancel();
-                    //cancel
                 }
 
                 reset();
@@ -247,4 +227,17 @@ public class AudioRecorderButton extends Button implements AudioManager.AudioSta
     }
 
 
+    /**
+     * 录音完成后的回调
+     */
+    public interface AudioFinishRecorderListener {
+        //时长  和 文件
+        void onFinish(float seconds, String filePath);
+    }
+
+    private AudioFinishRecorderListener mListener;
+
+    public void setAudioFinishRecorderListener(AudioFinishRecorderListener listener) {
+        mListener = listener;
+    }
 }

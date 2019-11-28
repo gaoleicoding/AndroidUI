@@ -27,19 +27,6 @@ public class AudioManager {
     }
 
 
-    /**
-     * 回调准备完毕
-     */
-    public interface AudioStateListener {
-        void wellPrepared();
-    }
-
-    public AudioStateListener mListener;
-
-    public void setOnAudioStateListener(AudioStateListener listener) {
-        mListener = listener;
-    }
-
     public static AudioManager getInstance() {
         if (mInstance == null) {
             synchronized (AudioManager.class) {
@@ -58,6 +45,8 @@ public class AudioManager {
      */
     public void prepareAudio() {
         try {
+            isPrepared = false;
+            //每次录制都需要创建新对象，不然会报错IllegalStateException，关于音频的状态
             mMediaRecorder = new MediaRecorder();
             File dir = new File(mDir);
             if (!dir.exists()) {
@@ -71,22 +60,20 @@ public class AudioManager {
             }
             mCurrentFilePath = file.getAbsolutePath();
 
-//            if (!isPrepared) {
-                //设置输出文件
-                mMediaRecorder.setOutputFile(file.getAbsolutePath());
-                //设置MediaRecorder的音频源为麦克风
-                mMediaRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
-                //设置音频格式
-                mMediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.AAC_ADTS);
-                //设置音频的格式为amr
-                mMediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
-                //设置录制的音频编码比特率
+            //设置输出文件
+            mMediaRecorder.setOutputFile(file.getAbsolutePath());
+            //设置MediaRecorder的音频源为麦克风
+            mMediaRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
+            //设置音频格式
+            mMediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.AAC_ADTS);
+            //设置音频的格式为amr
+            mMediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
+            //设置录制的音频编码比特率
 //            mMediaRecorder.setAudioEncodingBitRate();
-                // 设置录制的音频采样率
+            // 设置录制的音频采样率
 //            mMediaRecorder.setAudioSamplingRate();
 
-                mMediaRecorder.prepare();
-//            }
+            mMediaRecorder.prepare();
             mMediaRecorder.start();
             //准备结束
             isPrepared = true;
@@ -98,9 +85,8 @@ public class AudioManager {
         }
     }
 
-    //    生成UUID唯一标示符
-//    算法的核心思想是结合机器的网卡、当地时间、一个随即数来生成GUID
-//    .aac音频文件
+    //    生成UUID唯一标示符，算法的核心思想是结合机器的网卡、当地时间、一个随即数来生成GUID
+    //    .aac音频文件名
     private String generateFileName() {
         return UUID.randomUUID().toString() + ".aac";
     }
@@ -134,5 +120,20 @@ public class AudioManager {
     public String getCurrentFilePath() {
         return mCurrentFilePath;
     }
+
+
+    /**
+     * 回调准备完毕
+     */
+    public interface AudioStateListener {
+        void wellPrepared();
+    }
+
+    public AudioStateListener mListener;
+
+    public void setOnAudioStateListener(AudioStateListener listener) {
+        mListener = listener;
+    }
+
 }
 

@@ -3,8 +3,8 @@ package com.android.customview.recorder.view;
 //数据类
     public class Recorder{
 
-        float time;
-        String filePath;
+        private float time;
+        private String filePath;
 
         public float getTime() {
             return time;
