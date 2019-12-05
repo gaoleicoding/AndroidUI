@@ -85,6 +85,7 @@ public class MediaManager {
     public void release() {
         if (mMediaPlayer != null) {
             mMediaPlayer.release();
+//            mMediaPlayer = null;
         }
     }
 }

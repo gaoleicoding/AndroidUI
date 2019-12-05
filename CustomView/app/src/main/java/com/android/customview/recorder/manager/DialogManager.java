@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.android.customview.R;
 
+
 /**
  *
  * 自定义dialog 实现录音提示
