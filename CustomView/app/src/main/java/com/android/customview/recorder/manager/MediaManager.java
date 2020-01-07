@@ -15,6 +15,7 @@ public class MediaManager {
 
     private static boolean isPause;
     private static MediaManager mInstance;
+    private final String onlineAudio="https://github.com/gaoleicoding/CustomView/raw/master/CustomView/11281706.mp3";
 
     private MediaManager() {
     }
@@ -48,7 +49,7 @@ public class MediaManager {
         try {
             mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
             mMediaPlayer.setOnCompletionListener(onCompletionListener);
-            mMediaPlayer.setDataSource(filePath);
+            mMediaPlayer.setDataSource(onlineAudio);
             mMediaPlayer.prepare();
             mMediaPlayer.start();
 

@@ -7,50 +7,6 @@
     tools:context=".MainActivity">
 
 
-<!--    <Button-->
-<!--        android:id="@+id/dispatch"-->
-<!--        style="@style/buttonStyle"-->
-<!--        android:onClick="skipToDispatch"-->
-<!--        android:text="@string/dispatch"-->
-<!--        app:layout_constraintLeft_toLeftOf="parent"-->
-<!--        app:layout_constraintRight_toRightOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/textview"-->
-<!--        style="@style/buttonStyle"-->
-<!--        android:onClick="skipToText"-->
-<!--        android:text="@string/text"-->
-<!--        app:layout_constraintLeft_toLeftOf="parent"-->
-<!--        app:layout_constraintRight_toRightOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/dispatch" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/infiniteviewpager"-->
-<!--        style="@style/buttonStyle"-->
-<!--        android:onClick="skipToViewPager"-->
-<!--        android:text="@string/viewpager"-->
-<!--        app:layout_constraintLeft_toLeftOf="parent"-->
-<!--        app:layout_constraintRight_toRightOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/textview" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/calculator"-->
-<!--        style="@style/buttonStyle"-->
-<!--        android:onClick="skipToCalculator"-->
-<!--        android:text="Calculator"-->
-<!--        app:layout_constraintLeft_toLeftOf="parent"-->
-<!--        app:layout_constraintRight_toRightOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/infiniteviewpager" />-->
-
-<!--    <Button-->
-<!--        style="@style/buttonStyle"-->
-<!--        android:onClick="skipToPartActivity"-->
-<!--        android:text="ActivityPart"-->
-<!--        app:layout_constraintLeft_toLeftOf="parent"-->
-<!--        app:layout_constraintRight_toRightOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/calculator" />-->
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
