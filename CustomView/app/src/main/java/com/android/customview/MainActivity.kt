@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.android.customview.activitypart.PartActivity
 import com.android.customview.calculator.CalculatorActivity
 import com.android.customview.recorder.RecorderActivity
+import com.android.customview.skin.ZipActivity
 import com.android.customview.touchevent.DispatchActivity
 import com.android.customview.touchevent.TextActivity
 import com.android.customview.viewpager.ViewpagerActivity2
@@ -22,7 +23,8 @@ class MainActivity : AppCompatActivity() {
         "InfiniteViewPagerActivity（无限循环ViewPager解析）",
         "CalculatorActivity（利用设计模式设计简单计算器解析）",
         "PartActivity（透明Activity实现弹出界面占屏幕一部分解析）",
-        "RecorderActivity（仿微信发送语音解析）"
+        "RecorderActivity（仿微信发送语音解析）",
+        "ZipActivity（动态加载资源换肤）"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,6 +50,7 @@ class MainActivity : AppCompatActivity() {
                     3 -> startActivity(Intent(this@MainActivity, CalculatorActivity::class.java))
                     4 -> startActivity(Intent(this@MainActivity, PartActivity::class.java))
                     5 -> startActivity(Intent(this@MainActivity, RecorderActivity::class.java))
+                    6 -> startActivity(Intent(this@MainActivity, ZipActivity::class.java))
                 }
             }
         })

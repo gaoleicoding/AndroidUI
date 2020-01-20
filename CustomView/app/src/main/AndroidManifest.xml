@@ -16,6 +16,7 @@
         android:roundIcon="@mipmap/ic_app"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+        android:name=".App"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -30,6 +31,7 @@
         <activity android:name=".viewpager.ViewpagerActivity2" />
         <activity android:name=".calculator.CalculatorActivity" />
         <activity android:name=".recorder.RecorderActivity" />
+        <activity android:name=".skin.ZipActivity" />
         <activity
             android:name=".activitypart.PartActivity"
             android:screenOrientation="landscape"
