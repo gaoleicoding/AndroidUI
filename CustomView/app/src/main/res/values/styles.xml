@@ -34,4 +34,10 @@
         <!--/背景是否模糊显示-->
         <item name="android:backgroundDimEnabled">true</item>
     </style>
+
+
+    <style name="custom_view_style">
+        <item name="attr3">attr3 from custom_view_style</item>
+        <item name="attr4">attr4 from custom_view_style</item>
+    </style>
 </resources>

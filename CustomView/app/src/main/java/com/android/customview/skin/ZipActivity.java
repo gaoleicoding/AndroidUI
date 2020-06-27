@@ -1,15 +1,11 @@
 package com.android.customview.skin;
 
 import android.os.Bundle;
-
 import android.view.View;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
-
 import com.android.customview.R;
 import com.android.customview.skin.loader.ZipSDCardLoader;
-
 import skin.support.SkinCompatManager;
 import skin.support.utils.SkinPreference;
 
