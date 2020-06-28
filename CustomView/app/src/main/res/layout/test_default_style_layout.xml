@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <com.example.knowledge.view.CustomView
+    <com.android.customview.view.CustomView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         app:attr1="attr1 from xml"

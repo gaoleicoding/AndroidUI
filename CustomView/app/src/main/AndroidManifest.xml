@@ -30,6 +30,7 @@
         <activity android:name=".viewpager.ViewpagerActivity" />
         <activity android:name=".viewpager.ViewpagerActivity2" />
         <activity android:name=".calculator.CalculatorActivity" />
+        <activity android:name=".view.StyleActivity" />
         <activity android:name=".recorder.RecorderActivity" />
         <activity android:name=".skin.ZipActivity" />
         <activity
