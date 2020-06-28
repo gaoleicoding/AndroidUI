@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CustomView.iml" filepath="$PROJECT_DIR$/.idea/CustomView.iml" group="CustomView" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CustomView-CustomView-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CustomView-CustomView-app.iml" group="CustomView/app" />
       <module fileurl="file://$PROJECT_DIR$/app/CustomView-app.iml" filepath="$PROJECT_DIR$/app/CustomView-app.iml" group="CustomView/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" group="CustomView/mylibrary" />
