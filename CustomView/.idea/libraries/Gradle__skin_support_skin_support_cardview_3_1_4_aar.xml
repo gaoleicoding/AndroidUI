@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: skin.support:skin-support-cardview:3.1.4@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/834aa2bf2d32be72e7088a06409ba146/jetified-skin-support-cardview-3.1.4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/834aa2bf2d32be72e7088a06409ba146/jetified-skin-support-cardview-3.1.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e59080408c87715a4ed920dbf0d61ec/jetified-skin-support-cardview-3.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5e59080408c87715a4ed920dbf0d61ec/jetified-skin-support-cardview-3.1.4/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/skin.support/skin-support-cardview/3.1.4/54aefcb2be6c367719be081b2a1369defef7ba21/skin-support-cardview-3.1.4-javadoc.jar!/" />
