@@ -27,8 +27,8 @@
         </activity>
         <activity android:name=".touchevent.DispatchActivity" />
         <activity android:name=".touchevent.TextActivity" />
-        <activity android:name=".viewpager.ViewpagerActivity" />
-        <activity android:name=".viewpager.ViewpagerActivity2" />
+        <activity android:name=".viewpager.InfiniteVPActivity" />
+        <activity android:name=".viewpager.InfiniteVPActivity2" />
         <activity android:name=".calculator.CalculatorActivity" />
         <activity android:name=".view.StyleActivity" />
         <activity android:name=".recorder.RecorderActivity" />

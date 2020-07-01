@@ -15,7 +15,7 @@ import com.android.customview.skin.ZipActivity
 import com.android.customview.touchevent.DispatchActivity
 import com.android.customview.touchevent.TextActivity
 import com.android.customview.view.StyleActivity
-import com.android.customview.viewpager.ViewpagerActivity2
+import com.android.customview.viewpager.InfiniteVPActivity2
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     val activities = arrayOf(
         DispatchActivity::class.java,
         TextActivity::class.java,
-        ViewpagerActivity2::class.java,
+        InfiniteVPActivity2::class.java,
         CalculatorActivity::class.java,
         PartActivity::class.java,
         StyleActivity::class.java,

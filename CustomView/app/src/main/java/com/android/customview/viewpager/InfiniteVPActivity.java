@@ -1,8 +1,5 @@
 package com.android.customview.viewpager;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,7 +27,7 @@ import org.jetbrains.annotations.NotNull;
 		滑动的顺序：进入页面显示0图片，向右滑动到0时,将0页设置为0，则可以继续向右滑动。同理当向左滑动到  2 时，将2页设置为2
 */
 
-public class ViewpagerActivity extends Activity implements ViewPager.OnPageChangeListener {
+public class InfiniteVPActivity extends Activity implements ViewPager.OnPageChangeListener {
 
     private ViewPager viewPager;
 //    private List<ImageView> imageViewList;
@@ -56,7 +53,7 @@ public class ViewpagerActivity extends Activity implements ViewPager.OnPageChang
 //        }
 
         viewPager.setAdapter(new ViewPagerAdapter());
-        viewPager.addOnPageChangeListener(ViewpagerActivity.this);
+        viewPager.addOnPageChangeListener(InfiniteVPActivity.this);
         // 设置viewpager在第二个视图显示
         viewPager.setCurrentItem(1);
     }
@@ -98,7 +95,7 @@ public class ViewpagerActivity extends Activity implements ViewPager.OnPageChang
         @Override
         public Object instantiateItem(@NotNull ViewGroup container, int i) {
 
-            ImageView imageView = new ImageView(ViewpagerActivity.this);
+            ImageView imageView = new ImageView(InfiniteVPActivity.this);
             ViewGroup.LayoutParams viewPagerImageViewParams = new ViewGroup.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT,
                     ViewGroup.LayoutParams.MATCH_PARENT);

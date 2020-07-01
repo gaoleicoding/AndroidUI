@@ -26,7 +26,7 @@ import org.jetbrains.annotations.NotNull;
 可以尝试用第二种方法。当然具体在pager转场动画里是直接跳转还是有个过渡动画来缓冲一下，看具体的项目中更适合哪种了。
 		*/
 
-public class ViewpagerActivity2 extends Activity {
+public class InfiniteVPActivity2 extends Activity {
 
     private int[] pics = {R.drawable.xu1, R.drawable.xu2, R.drawable.xu3};
 
@@ -45,7 +45,7 @@ public class ViewpagerActivity2 extends Activity {
 
         @Override
         public Object instantiateItem(ViewGroup container, int position) {
-            ImageView imageView = new ImageView(ViewpagerActivity2.this);
+            ImageView imageView = new ImageView(InfiniteVPActivity2.this);
             ViewGroup.LayoutParams viewPagerImageViewParams = new ViewGroup.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT,
                     ViewGroup.LayoutParams.MATCH_PARENT);
