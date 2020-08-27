@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
-    <com.android.customview.view.CustomView
+    <view class="com.android.customview.view.StyleActivity$CustomView"
+        style="@style/xml_style"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         app:attr1="attr1 from xml"
-        app:attr2="attr2 from xml"
-        style="@style/xml_style" />
+        app:attr2="attr2 from xml" />
 
 </LinearLayout>

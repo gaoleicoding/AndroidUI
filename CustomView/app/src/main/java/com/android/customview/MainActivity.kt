@@ -14,32 +14,33 @@ import com.android.customview.recorder.RecorderActivity
 import com.android.customview.skin.ZipActivity
 import com.android.customview.touchevent.DispatchActivity
 import com.android.customview.touchevent.TextActivity
-import com.android.customview.view.StyleActivity
-import com.android.customview.viewpager.InfiniteVPActivity2
+import com.android.customview.view.ViewActivity
+import com.android.customview.viewpager.VPInfiniteActivity2
+import com.android.customview.viewpager.ViewPagerActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
 
     val items = arrayOf(
-        "DispatchActivity（触摸时间分发机制解析）",
-        "TextActivity（绘制文本解析）",
-        "InfiniteViewPagerActivity（无限循环ViewPager解析）",
-        "CalculatorActivity（利用设计模式设计简单计算器解析）",
-        "PartActivity（透明Activity实现弹出界面占屏幕一部分解析）",
-        "StyleActivity（Style使用）",
+        "DispatchActivity（触摸时间分发机制）",
+        "TextActivity（绘制文本）",
+        "ViewPagerActivity（ViewPager相关）",
+        "CalculatorActivity（利用设计模式设计简单计算器）",
+        "PartActivity（透明Activity实现弹出界面占屏幕一部分）",
+        "ViewActivity（自定义View使用）",
         "ZipActivity（动态加载资源换肤）",
         "Animation（动画）",
-        "RecorderActivity（仿微信发送语音解析）"
+        "RecorderActivity（仿微信发送语音）"
 
     )
     val activities = arrayOf(
         DispatchActivity::class.java,
         TextActivity::class.java,
-        InfiniteVPActivity2::class.java,
+        ViewPagerActivity::class.java,
         CalculatorActivity::class.java,
         PartActivity::class.java,
-        StyleActivity::class.java,
+        ViewActivity::class.java,
         ZipActivity::class.java,
         AnimationActivity::class.java,
         RecorderActivity::class.java
