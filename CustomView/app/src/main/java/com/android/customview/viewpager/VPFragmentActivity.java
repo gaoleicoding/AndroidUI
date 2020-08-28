@@ -12,6 +12,9 @@ import com.android.customview.R;
 import java.util.ArrayList;
 import java.util.List;
 
+import static androidx.fragment.app.FragmentPagerAdapter.BEHAVIOR_SET_USER_VISIBLE_HINT;
+import static androidx.fragment.app.FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT;
+
 public class VPFragmentActivity extends AppCompatActivity {
     private ViewPager vp;
 
@@ -30,7 +33,7 @@ public class VPFragmentActivity extends AppCompatActivity {
         fragments.add(Fragment3.newInstance());
         fragments.add(Fragment4.newInstance());
 //        vp.setOffscreenPageLimit(fragments.size());
-        vp.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
+        vp.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager(),BEHAVIOR_SET_USER_VISIBLE_HINT) {
             @Override
             public Fragment getItem(int position) {
                 return fragments.get(position);

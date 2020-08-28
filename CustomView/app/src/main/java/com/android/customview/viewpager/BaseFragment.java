@@ -68,7 +68,29 @@ public abstract class BaseFragment extends Fragment {
         if (getUserVisibleHint()) {
             setUserVisibleHint(true);
         }
+
+
     }
+//    androidx中Fragment设置BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT懒加载，onResume中执行lazyLoad。
+//    @Override
+//    public void onResume() {
+//        super.onResume();
+//        Log.d(TAG, "onResume:");
+//        if (isFirstVisible && isCreated && !isHidden()) {
+//            lazyLoad();
+//        }
+//    }
+//
+//    //嵌套子Fragment会调用此方法
+//    @Override
+//    public void onHiddenChanged(boolean hidden) {
+//        super.onHiddenChanged(hidden);
+//        if (hidden) {
+//            isFragmentVisible(false);
+//        } else {
+//            isFragmentVisible(true);
+//        }
+//    }
 
     @Override
     public void onDestroyView() {
