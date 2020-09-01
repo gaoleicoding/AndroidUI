@@ -37,6 +37,7 @@
         <activity android:name=".skin.ZipActivity" />
         <activity android:name=".view.ViewActivity" />
         <activity android:name=".view.CanvasActivity" />
+        <activity android:name=".coordinatorlayout.BehaviorActivity" />
         <activity
             android:name=".activitypart.PartActivity"
             android:screenOrientation="landscape"

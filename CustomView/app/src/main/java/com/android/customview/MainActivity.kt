@@ -10,6 +10,7 @@ import com.android.customview.adapter.DividerItemDecoration
 import com.android.customview.adapter.ItemAdapter
 import com.android.customview.animation.AnimationActivity
 import com.android.customview.calculator.CalculatorActivity
+import com.android.customview.coordinatorlayout.BehaviorActivity
 import com.android.customview.recorder.RecorderActivity
 import com.android.customview.skin.ZipActivity
 import com.android.customview.touchevent.DispatchActivity
@@ -31,7 +32,8 @@ class MainActivity : AppCompatActivity() {
         "ViewActivity（自定义View使用）",
         "ZipActivity（动态加载资源换肤）",
         "Animation（动画）",
-        "RecorderActivity（仿微信发送语音）"
+        "RecorderActivity（仿微信发送语音）",
+        "BehaviorActivity（CoordinatorLayout的Behavior）"
 
     )
     val activities = arrayOf(
@@ -43,7 +45,8 @@ class MainActivity : AppCompatActivity() {
         ViewActivity::class.java,
         ZipActivity::class.java,
         AnimationActivity::class.java,
-        RecorderActivity::class.java
+        RecorderActivity::class.java,
+        BehaviorActivity::class.java
 
     )
 
