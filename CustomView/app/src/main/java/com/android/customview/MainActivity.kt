@@ -10,13 +10,12 @@ import com.android.customview.adapter.DividerItemDecoration
 import com.android.customview.adapter.ItemAdapter
 import com.android.customview.animation.AnimationActivity
 import com.android.customview.calculator.CalculatorActivity
-import com.android.customview.coordinatorlayout.BehaviorActivity
+import com.android.customview.materialdesign.bottomsheet.BottomSheetActivity
 import com.android.customview.recorder.RecorderActivity
 import com.android.customview.skin.ZipActivity
 import com.android.customview.touchevent.DispatchActivity
 import com.android.customview.touchevent.TextActivity
 import com.android.customview.view.ViewActivity
-import com.android.customview.viewpager.VPInfiniteActivity2
 import com.android.customview.viewpager.ViewPagerActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -33,7 +32,8 @@ class MainActivity : AppCompatActivity() {
         "ZipActivity（动态加载资源换肤）",
         "Animation（动画）",
         "RecorderActivity（仿微信发送语音）",
-        "BehaviorActivity（CoordinatorLayout的Behavior）"
+        "BehaviorActivity（CoordinatorLayout的Behavior）",
+        "SheetDialogActivity"
 
     )
     val activities = arrayOf(
@@ -46,7 +46,8 @@ class MainActivity : AppCompatActivity() {
         ZipActivity::class.java,
         AnimationActivity::class.java,
         RecorderActivity::class.java,
-        BehaviorActivity::class.java
+        RecorderActivity::class.java,
+        BottomSheetActivity::class.java
 
     )
 

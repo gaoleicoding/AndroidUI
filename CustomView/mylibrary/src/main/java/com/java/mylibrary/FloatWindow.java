@@ -42,7 +42,7 @@ public class FloatWindow {
         mParams = new WindowManager.LayoutParams();
 //        mParams.alpha=0.5f;
         mParams.packageName = context.getPackageName();
-        mParams.width = DensityUtil.dip2px(context,240);
+        mParams.width = Utils.dp2px(context,240);
         mParams.height = WindowManager.LayoutParams.MATCH_PARENT;
         mParams.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL
                 | WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE | WindowManager.LayoutParams.FLAG_LAYOUT_INSET_DECOR
