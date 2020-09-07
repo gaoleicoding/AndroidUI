@@ -1,4 +1,4 @@
-package com.android.customview.materialdesign.bottomsheet;
+package com.android.customview.material.bottomsheet;
 
 import android.view.LayoutInflater;
 import android.view.View;

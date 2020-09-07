@@ -1,0 +1,150 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map_car_location"
+        android:name="com.android.customview.material.behavior3.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_set_location_search_bg"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:id="@+id/fl_status_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:paddingTop="24dp" />
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fl_status_bar"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_toStartOf="@+id/btn_cancel"
+            android:background="@drawable/shape_set_location_search_btn_bg"
+            android:drawableStart="@drawable/ic_set_car_location_search"
+            android:drawablePadding="6dp"
+            android:gravity="center_vertical"
+            android:hint="搜索地址/关键词"
+            android:paddingStart="15dp"
+            android:paddingTop="9dp"
+            android:paddingEnd="6dp"
+            android:paddingBottom="9dp"
+            android:singleLine="true"
+            android:textColor="#D8D8D8"
+            android:textColorHint="#D8D8D8"
+            android:textSize="13sp"
+            android:layout_marginLeft="19dp" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv_search"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="19dp"
+            android:background="@null"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:text="取消"
+            android:textColor="#4A4A4A"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_map_center"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="31dp"
+        android:src="@drawable/ic_cardetail_location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ib_my_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shape_set_car_location_location_bg"
+        android:src="@drawable/ic_set_car_location_location"
+        app:layout_behavior=".material.behavior3.SetCarLocationBottomSheetBehavior" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_set_car_location_search_result_bg"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        app:layout_behavior=".material.behavior3.SetCarLocationBottomSheetBehavior"
+        tools:behavior_peekHeight="210dp">
+
+        <View
+            android:id="@+id/view_line1"
+            android:layout_width="30dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape_set_car_location_search_result_line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view_line2"
+            android:layout_width="30dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/shape_set_car_location_search_result_line"
+            app:layout_constraintEnd_toEndOf="@id/view_line1"
+            app:layout_constraintStart_toStartOf="@id/view_line1"
+            app:layout_constraintTop_toBottomOf="@id/view_line1" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_line2" />
+
+        <FrameLayout
+            android:id="@+id/fl_loading"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_height="210dp">
+
+            <TextView
+                android:id="@+id/layout_empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="没有搜索到任何结果"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

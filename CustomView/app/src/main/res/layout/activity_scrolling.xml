@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@color/colorInitFloatBackground"
-        app:layout_behavior=".materialdesign.behavior.HeaderFloatBehavior">
+        app:layout_behavior=".material.behavior.HeaderFloatBehavior">
 
         <TextView
             android:layout_width="wrap_content"
@@ -37,6 +37,6 @@
         android:layout_height="match_parent"
         android:background="#fff"
         app:layoutManager="LinearLayoutManager"
-        app:layout_behavior=".materialdesign.behavior.HeaderScrollingBehavior" />
+        app:layout_behavior=".material.behavior.HeaderScrollingBehavior" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

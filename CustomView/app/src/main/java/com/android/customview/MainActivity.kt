@@ -10,8 +10,9 @@ import com.android.customview.adapter.DividerItemDecoration
 import com.android.customview.adapter.ItemAdapter
 import com.android.customview.animation.AnimationActivity
 import com.android.customview.calculator.CalculatorActivity
-import com.android.customview.materialdesign.behavior.BehaviorActivity
-import com.android.customview.materialdesign.bottomsheet.BottomSheetActivity
+import com.android.customview.material.behavior.BehaviorActivity
+import com.android.customview.material.behavior3.SetCarLocationActivity
+import com.android.customview.material.bottomsheet.BottomSheetActivity
 import com.android.customview.recorder.RecorderActivity
 import com.android.customview.skin.ZipActivity
 import com.android.customview.touchevent.DispatchActivity
@@ -47,7 +48,7 @@ class MainActivity : AppCompatActivity() {
         ZipActivity::class.java,
         AnimationActivity::class.java,
         RecorderActivity::class.java,
-        BehaviorActivity::class.java,
+        SetCarLocationActivity::class.java,
         BottomSheetActivity::class.java
 
     )

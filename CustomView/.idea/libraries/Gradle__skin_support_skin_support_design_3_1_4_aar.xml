@@ -1,9 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: skin.support:skin-support-design:3.1.4@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90b8a515d7edb3d9b4a8837e29d2fcdb/jetified-skin-support-design-3.1.4/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90b8a515d7edb3d9b4a8837e29d2fcdb/jetified-skin-support-design-3.1.4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90b8a515d7edb3d9b4a8837e29d2fcdb/jetified-skin-support-design-3.1.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f09570d0b36f15f3ed54057824bdbfbf/jetified-skin-support-design-3.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f09570d0b36f15f3ed54057824bdbfbf/jetified-skin-support-design-3.1.4/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/skin.support/skin-support-design/3.1.4/8e5a8afd311891a189d71b46ba7f719e6f7c6a3d/skin-support-design-3.1.4-javadoc.jar!/" />

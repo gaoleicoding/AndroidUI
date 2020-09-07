@@ -1,4 +1,4 @@
-package com.android.customview.materialdesign.bottomsheet;
+package com.android.customview.material.bottomsheet2;
 
 import android.os.Bundle;
 import android.view.View;

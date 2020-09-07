@@ -37,10 +37,11 @@
         <activity android:name=".skin.ZipActivity" />
         <activity android:name=".view.ViewActivity" />
         <activity android:name=".view.CanvasActivity" />
-        <activity android:name=".materialdesign.behavior.BehaviorActivity" />
-        <activity android:name=".materialdesign.bottomsheet.BottomSheetActivity" />
-        <activity android:name=".materialdesign.bottomsheet.BottomSheetActivity2" />
-        <activity android:name=".materialdesign.behavior.GaodeBottomSheetActivity" />
+        <activity android:name=".material.behavior.BehaviorActivity" />
+        <activity android:name=".material.behavior2.GaodeBottomSheetActivity" />
+        <activity android:name=".material.behavior3.SetCarLocationActivity" />
+        <activity android:name=".material.bottomsheet.BottomSheetActivity" />
+        <activity android:name=".material.bottomsheet2.BottomSheetActivity2" />
         <activity
             android:name=".activitypart.PartActivity"
             android:screenOrientation="landscape"

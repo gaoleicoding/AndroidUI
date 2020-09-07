@@ -1,4 +1,4 @@
-package com.android.customview.materialdesign.behavior;
+package com.android.customview.material.behavior2;
 
 import androidx.annotation.Nullable;
 

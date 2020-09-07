@@ -1,4 +1,4 @@
-package com.android.customview.materialdesign.behavior;
+package com.android.customview.material.behavior;
 
 import android.animation.ArgbEvaluator;
 import android.content.Context;

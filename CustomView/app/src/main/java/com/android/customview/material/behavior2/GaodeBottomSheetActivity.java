@@ -1,4 +1,4 @@
-package com.android.customview.materialdesign.behavior;
+package com.android.customview.material.behavior2;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
