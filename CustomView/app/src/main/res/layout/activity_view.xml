@@ -19,5 +19,12 @@
         android:text="CanvasActivity"
         android:textAllCaps="false" />
 
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openStrokeActivity"
+        android:text="StrokeTextViewActivity"
+        android:textAllCaps="false" />
+
 
 </LinearLayout>

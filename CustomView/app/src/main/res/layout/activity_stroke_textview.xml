@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.android.customview.view.textview.InnerStrokeTextView
+        android:id="@+id/text_inner_stroke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123 ABC"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:textStrokeColor="#ff0000"
+        app:textStrokeWidth="1dp" />
+
+    <com.android.customview.view.textview.OuterStrokeTextView
+        android:id="@+id/text_outer_stroke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123 ABC"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:outlineColor="#ff0000"
+        app:outlineWidth="4dp" />
+
+    <com.android.customview.view.textview.FlickTextView
+        android:id="@+id/text_flick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="闪闪发光的文字"
+        android:textColor="#000000"
+        android:textSize="36sp" />
+
+</LinearLayout>

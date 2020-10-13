@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.android.customview.R;
+import com.android.customview.view.textview.StrokeTextViewActivity;
 
 public class ViewActivity extends Activity {
     @Override
@@ -20,5 +21,9 @@ public class ViewActivity extends Activity {
 
     public void openCanvasActivity(View view) {
         startActivity(new Intent(this, CanvasActivity.class));
+    }
+
+    public void openStrokeActivity(View view) {
+        startActivity(new Intent(this, StrokeTextViewActivity.class));
     }
 }

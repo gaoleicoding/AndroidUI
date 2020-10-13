@@ -37,6 +37,7 @@
         <activity android:name=".skin.ZipActivity" />
         <activity android:name=".view.ViewActivity" />
         <activity android:name=".view.CanvasActivity" />
+        <activity android:name=".view.textview.StrokeTextViewActivity" />
         <activity android:name=".material.behavior.BehaviorActivity" />
         <activity android:name=".material.behavior2.GaodeBottomSheetActivity" />
         <activity android:name=".material.behavior3.SetCarLocationActivity" />

@@ -45,4 +45,17 @@
         <item name="attr2">attr2 from xml_style</item>
         <item name="attr3">attr3 from xml_style</item>
     </style>
+    <declare-styleable name="CoustomStrokeTextView">
+
+        <attr name="outerShadowRadius" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="strokeMiter" format="dimension" />
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeJoinStyle">
+            <enum name="miter" value="0" />
+            <enum name="bevel" value="1" />
+            <enum name="round" value="2" />
+        </attr>
+    </declare-styleable>
+
 </resources>

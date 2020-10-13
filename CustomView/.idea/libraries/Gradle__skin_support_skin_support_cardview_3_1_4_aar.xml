@@ -1,8 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: skin.support:skin-support-cardview:3.1.4@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9fa7653d32f0fce8de8cfdcfb41ec173/jetified-skin-support-cardview-3.1.4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9fa7653d32f0fce8de8cfdcfb41ec173/jetified-skin-support-cardview-3.1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/417d69911cb04a6e8dc91105eacc995a/jetified-skin-support-cardview-3.1.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/417d69911cb04a6e8dc91105eacc995a/jetified-skin-support-cardview-3.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/417d69911cb04a6e8dc91105eacc995a/jetified-skin-support-cardview-3.1.4/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/skin.support/skin-support-cardview/3.1.4/54aefcb2be6c367719be081b2a1369defef7ba21/skin-support-cardview-3.1.4-javadoc.jar!/" />

@@ -12,4 +12,13 @@
 
     <attr name="customViewStyle" format="reference" />
 
+    <declare-styleable name="InnerStrokeTextView">
+        <attr name="textStrokeColor" format="color" />
+        <attr name="textStrokeWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="OuterStrokeTextView">
+        <attr name="outlineColor" format="color" />
+        <attr name="outlineWidth" format="dimension" />
+    </declare-styleable>
 </resources>
