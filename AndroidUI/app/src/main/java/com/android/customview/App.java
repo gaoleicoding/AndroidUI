@@ -14,7 +14,7 @@ import skin.support.design.app.SkinMaterialViewInflater;
 
 public class App extends Application {
 
-    public void onCreate(){
+    public void onCreate() {
         super.onCreate();
         SkinCompatManager.withoutActivity(this)
                 .addStrategy(new CustomSDCardLoader())

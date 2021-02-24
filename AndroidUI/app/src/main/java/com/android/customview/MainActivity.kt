@@ -10,9 +10,9 @@ import com.android.customview.adapter.DividerItemDecoration
 import com.android.customview.adapter.ItemAdapter
 import com.android.customview.animation.AnimationActivity
 import com.android.customview.calculator.CalculatorActivity
-import com.android.customview.material.behavior.BehaviorActivity
 import com.android.customview.material.behavior3.SetCarLocationActivity
 import com.android.customview.material.bottomsheet.BottomSheetActivity
+import com.android.customview.nestedscroll.NestedScrollActivity
 import com.android.customview.recorder.RecorderActivity
 import com.android.customview.skin.ZipActivity
 import com.android.customview.touchevent.DispatchActivity
@@ -25,31 +25,33 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     val items = arrayOf(
-        "DispatchActivity（触摸时间分发机制）",
-        "TextActivity（绘制文本）",
-        "ViewPagerActivity（ViewPager相关）",
-        "CalculatorActivity（利用设计模式设计简单计算器）",
-        "PartActivity（透明Activity实现弹出界面占屏幕一部分）",
-        "ViewActivity（自定义View使用）",
-        "ZipActivity（动态加载资源换肤）",
-        "Animation（动画）",
-        "RecorderActivity（仿微信发送语音）",
-        "BehaviorActivity（CoordinatorLayout的Behavior）",
-        "SheetDialogActivity"
+            "DispatchActivity（触摸时间分发机制）",
+            "TextActivity（绘制文本）",
+            "ViewPagerActivity（ViewPager相关）",
+            "CalculatorActivity（利用设计模式设计简单计算器）",
+            "PartActivity（透明Activity实现弹出界面占屏幕一部分）",
+            "ViewActivity（自定义View使用）",
+            "ZipActivity（动态加载资源换肤）",
+            "Animation（动画）",
+            "RecorderActivity（仿微信发送语音）",
+            "BehaviorActivity（CoordinatorLayout的Behavior）",
+            "SheetDialogActivity（Behavior的使用）",
+            "NestedScrollActivity（NestedScroll的嵌套使用）"
 
     )
     val activities = arrayOf(
-        DispatchActivity::class.java,
-        TextActivity::class.java,
-        ViewPagerActivity::class.java,
-        CalculatorActivity::class.java,
-        PartActivity::class.java,
-        ViewActivity::class.java,
-        ZipActivity::class.java,
-        AnimationActivity::class.java,
-        RecorderActivity::class.java,
-        SetCarLocationActivity::class.java,
-        BottomSheetActivity::class.java
+            DispatchActivity::class.java,
+            TextActivity::class.java,
+            ViewPagerActivity::class.java,
+            CalculatorActivity::class.java,
+            PartActivity::class.java,
+            ViewActivity::class.java,
+            ZipActivity::class.java,
+            AnimationActivity::class.java,
+            RecorderActivity::class.java,
+            SetCarLocationActivity::class.java,
+            BottomSheetActivity::class.java,
+            NestedScrollActivity::class.java
 
     )
 
@@ -59,13 +61,13 @@ class MainActivity : AppCompatActivity() {
         var layoutManager = LinearLayoutManager(this)
         recyclerview.setLayoutManager(layoutManager);
         var itemAdapter =
-            ItemAdapter(this, items.asList())
+                ItemAdapter(this, items.asList())
         recyclerview.setAdapter(itemAdapter)
         recyclerview.addItemDecoration(
-            DividerItemDecoration(
-                this@MainActivity,
-                DividerItemDecoration.VERTICAL_LIST
-            )
+                DividerItemDecoration(
+                        this@MainActivity,
+                        DividerItemDecoration.VERTICAL_LIST
+                )
         )
         itemAdapter.setOnItemClickLitener(object : ItemAdapter.OnItemClickLitener {
             override fun onItemClick(v: View) {
