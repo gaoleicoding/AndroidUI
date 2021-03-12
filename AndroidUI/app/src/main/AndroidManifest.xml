@@ -44,6 +44,10 @@
         <activity android:name=".material.bottomsheet.BottomSheetActivity" />
         <activity android:name=".material.bottomsheet2.BottomSheetActivity2" />
         <activity android:name=".nestedscroll.NestedScrollActivity" />
+        <activity android:name=".path.PathActivity" />
+        <activity android:name=".path.flower.PathMeasureFlowerActivity" />
+        <activity android:name=".path.progress.PathMeasureProgressActivity" />
+        <activity android:name=".path.waterwave.PathWaterWaveActivity" />
         <activity
             android:name=".activitypart.PartActivity"
             android:screenOrientation="landscape"
