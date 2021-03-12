@@ -10,6 +10,7 @@ import com.android.customview.adapter.DividerItemDecoration
 import com.android.customview.adapter.ItemAdapter
 import com.android.customview.animation.AnimationActivity
 import com.android.customview.calculator.CalculatorActivity
+import com.android.customview.design.CollapseActivity
 import com.android.customview.material.behavior3.SetCarLocationActivity
 import com.android.customview.material.bottomsheet.BottomSheetActivity
 import com.android.customview.nestedscroll.NestedScrollActivity
@@ -38,7 +39,8 @@ class MainActivity : AppCompatActivity() {
         "BehaviorActivity（CoordinatorLayout的Behavior）",
         "SheetDialogActivity（Behavior的使用）",
         "NestedScrollActivity（NestedScroll的嵌套使用）",
-        "PathActivity（Path的使用）"
+        "PathActivity（Path的使用）",
+        "CollapseActivity（Collapse的使用）"
 
     )
     val activities = arrayOf(
@@ -54,7 +56,9 @@ class MainActivity : AppCompatActivity() {
         SetCarLocationActivity::class.java,
         BottomSheetActivity::class.java,
         NestedScrollActivity::class.java,
-        PathActivity::class.java
+        PathActivity::class.java,
+        CollapseActivity::class.java
+
 
     )
 

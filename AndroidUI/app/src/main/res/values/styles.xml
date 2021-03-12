@@ -41,10 +41,15 @@
         <item name="attr4">attr4 from custom_view_style</item>
     </style>
 
+    <style name="TitleTextSize">
+        <item name="android:textSize">18sp</item>
+    </style>
+
     <style name="xml_style">
         <item name="attr2">attr2 from xml_style</item>
         <item name="attr3">attr3 from xml_style</item>
     </style>
+
     <declare-styleable name="CoustomStrokeTextView">
 
         <attr name="outerShadowRadius" format="dimension" />
