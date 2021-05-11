@@ -25,7 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".touchevent.DispatchActivity" />
+        <activity android:name=".touchevent.TouchEventActivity" />
         <activity android:name=".touchevent.TextActivity" />
         <activity android:name=".viewpager.ViewPagerActivity" />
         <activity android:name=".viewpager.VPFragmentActivity" />

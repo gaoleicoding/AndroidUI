@@ -17,8 +17,8 @@ import com.android.customview.nestedscroll.NestedScrollActivity
 import com.android.customview.path.PathActivity
 import com.android.customview.recorder.RecorderActivity
 import com.android.customview.skin.ZipActivity
-import com.android.customview.touchevent.DispatchActivity
 import com.android.customview.touchevent.TextActivity
+import com.android.customview.touchevent.TouchEventActivity
 import com.android.customview.view.ViewActivity
 import com.android.customview.viewpager.ViewPagerActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -27,7 +27,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     val items = arrayOf(
-        "DispatchActivity（触摸时间分发机制）",
+        "TouchEventActivity（触摸时间分发机制）",
         "TextActivity（绘制文本）",
         "ViewPagerActivity（ViewPager相关）",
         "CalculatorActivity（利用设计模式设计简单计算器）",
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
     )
     val activities = arrayOf(
-        DispatchActivity::class.java,
+        TouchEventActivity::class.java,
         TextActivity::class.java,
         ViewPagerActivity::class.java,
         CalculatorActivity::class.java,
