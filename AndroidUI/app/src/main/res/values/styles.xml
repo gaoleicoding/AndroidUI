@@ -62,5 +62,9 @@
             <enum name="round" value="2" />
         </attr>
     </declare-styleable>
-
+    <style name="baike_tab_txt">
+        <item name="android:textColor">@color/color_8A8FA4</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
 </resources>

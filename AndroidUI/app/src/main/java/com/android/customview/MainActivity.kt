@@ -11,6 +11,7 @@ import com.android.customview.adapter.ItemAdapter
 import com.android.customview.animation.AnimationActivity
 import com.android.customview.calculator.CalculatorActivity
 import com.android.customview.design.CollapseActivity
+import com.android.customview.design.tablayout.TabLayoutActivity
 import com.android.customview.material.behavior3.SetCarLocationActivity
 import com.android.customview.material.bottomsheet.BottomSheetActivity
 import com.android.customview.nestedscroll.NestedScrollActivity
@@ -40,8 +41,8 @@ class MainActivity : AppCompatActivity() {
         "SheetDialogActivity（Behavior的使用）",
         "NestedScrollActivity（NestedScroll的嵌套使用）",
         "PathActivity（Path的使用）",
-        "CollapseActivity（Collapse的使用）"
-
+        "CollapseActivity（Collapse的使用）",
+        "TabLayoutActivity（TabLayout的使用）"
     )
     val activities = arrayOf(
         TouchEventActivity::class.java,
@@ -57,7 +58,8 @@ class MainActivity : AppCompatActivity() {
         BottomSheetActivity::class.java,
         NestedScrollActivity::class.java,
         PathActivity::class.java,
-        CollapseActivity::class.java
+        CollapseActivity::class.java,
+        TabLayoutActivity::class.java
 
 
     )
@@ -65,9 +67,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var layoutManager = LinearLayoutManager(this)
+        val layoutManager = LinearLayoutManager(this)
         recyclerview.setLayoutManager(layoutManager);
-        var itemAdapter =
+        val itemAdapter =
             ItemAdapter(this, items.asList())
         recyclerview.setAdapter(itemAdapter)
         recyclerview.addItemDecoration(
@@ -78,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         )
         itemAdapter.setOnItemClickLitener(object : ItemAdapter.OnItemClickLitener {
             override fun onItemClick(v: View) {
-                var position = recyclerview.getChildAdapterPosition(v)
+                val position = recyclerview.getChildAdapterPosition(v)
                 startActivity(Intent(this@MainActivity, activities[position]))
             }
         })

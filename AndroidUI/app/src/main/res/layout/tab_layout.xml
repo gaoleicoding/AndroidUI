@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="24dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_baike_tab"
+        style="@style/baike_tab_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        tools:text="测试三级类目" />
+
+    <ImageView
+        android:id="@+id/iv_baike_tab"
+        android:layout_width="16dp"
+        android:layout_height="2dp"
+        android:src="@drawable/tab_indicator"
+        android:visibility="gone" />
+
+</LinearLayout>
