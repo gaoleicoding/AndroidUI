@@ -33,7 +33,7 @@ class TabLayoutActivity : AppCompatActivity() {
                 mBaikeViewpager.setCurrentItem(tab.getPosition());
                 val view = tab.getCustomView()
                 val tv = view?.findViewById<TextView>(R.id.tv_baike_tab)
-                tv?.setTypeface(Typeface.defaultFromStyle(Typeface.BOLD))
+                tv?.setTypeface(Typeface.DEFAULT_BOLD)
                 tv?.setTextSize(16f)
                 tv?.setTextColor(
                     ContextCompat.getColor(
@@ -46,7 +46,7 @@ class TabLayoutActivity : AppCompatActivity() {
             override fun onTabUnselected(tab: TabLayout.Tab) {
                 val view = tab.getCustomView()
                 val tv = view?.findViewById<TextView>(R.id.tv_baike_tab)
-                tv?.setTypeface(Typeface.defaultFromStyle(Typeface.NORMAL))
+                tv?.setTypeface(Typeface.DEFAULT)
                 tv?.setTextSize(14f)
                 tv?.setTextColor(
                     ContextCompat.getColor(
@@ -74,12 +74,11 @@ class TabLayoutActivity : AppCompatActivity() {
         val adapter = TabPagerAdapter(this, mFragments)
         mBaikeViewpager.offscreenPageLimit = mFragments.size
         mBaikeViewpager.adapter = adapter
-        mBaikeViewpager.setCurrentItem(0)
         TabLayoutMediator(mBaikeTablayout, mBaikeViewpager) { tab, position ->
         }.attach()
         for (i in 0 until size) {
-            // 在这里设置默认选中Tab第一项效果
             if (i == 0) {
+                // 在这里设置默认选中Tab第一项效果
                 mBaikeTablayout.removeTabAt(0)
                 mBaikeTablayout.addTab(
                     mBaikeTablayout.newTab().setCustomView(getTabView(i)),
