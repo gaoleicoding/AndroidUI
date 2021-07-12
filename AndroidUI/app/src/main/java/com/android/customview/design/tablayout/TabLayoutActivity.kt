@@ -62,24 +62,36 @@ class TabLayoutActivity : AppCompatActivity() {
     }
 
     fun initData() {
-        val size = 12
+        val size = 10
         val mFragments = ArrayList<TabFragment>()
 
         for (i in 0 until size) {
             val baikeCategoryFragment = TabFragment()
-            baikeCategoryFragment.setContent("第" + i + "个页面")
+            baikeCategoryFragment.setContent("第" + (i + 1) + "个页面")
             mFragments.add(baikeCategoryFragment)
-            mTabTitles.add("Tab" + i)
+            mTabTitles.add("Tab" + (i + 1))
         }
         val adapter = TabPagerAdapter(this, mFragments)
         mBaikeViewpager.offscreenPageLimit = mFragments.size
         mBaikeViewpager.adapter = adapter
+        mBaikeViewpager.setCurrentItem(0)
         TabLayoutMediator(mBaikeTablayout, mBaikeViewpager) { tab, position ->
         }.attach()
         for (i in 0 until size) {
-            val tab: TabLayout.Tab = mBaikeTablayout.getTabAt(i)!!
-            tab.customView = getTabView(i)
+            // 在这里设置默认选中Tab第一项效果
+            if (i == 0) {
+                mBaikeTablayout.removeTabAt(0)
+                mBaikeTablayout.addTab(
+                    mBaikeTablayout.newTab().setCustomView(getTabView(i)),
+                    0,
+                    true
+                );
+            } else {
+                val tab: TabLayout.Tab? = mBaikeTablayout.getTabAt(i)
+                tab?.customView = getTabView(i)
+            }
         }
+
     }
 
     fun getTabView(currentPosition: Int): View {
