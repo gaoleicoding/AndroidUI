@@ -50,6 +50,7 @@
         <activity android:name=".path.waterwave.PathWaterWaveActivity" />
         <activity android:name=".design.CollapseActivity" />
         <activity android:name=".design.tablayout.TabLayoutActivity" />
+        <activity android:name=".view.CustomActivity" />
 
         <activity
             android:name=".activitypart.PartActivity"

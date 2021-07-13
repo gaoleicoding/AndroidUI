@@ -26,5 +26,12 @@
         android:text="StrokeTextViewActivity"
         android:textAllCaps="false" />
 
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openCustomActivity"
+        android:text="CustomActivity"
+        android:textAllCaps="false" />
+
 
 </LinearLayout>

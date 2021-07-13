@@ -26,4 +26,8 @@ public class ViewActivity extends Activity {
     public void openStrokeActivity(View view) {
         startActivity(new Intent(this, StrokeTextViewActivity.class));
     }
+
+    public void openCustomActivity(View view) {
+        startActivity(new Intent(this, CustomActivity.class));
+    }
 }
