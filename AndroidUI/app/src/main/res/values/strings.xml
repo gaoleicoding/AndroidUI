@@ -6,6 +6,6 @@
     <string name="str_recorder_normal">按住说话</string>
     <string name="str_recorder_recording">松开结束</string>
     <string name="str_recorder_want_cancel">松开手指，取消发送</string>
-    <string name="header_scrolling_behavior">com.android.customview.coordinatorlayout.behavior.HeaderScrollingBehavior</string>
-    <string name="header_float_behavior">com.android.customview.coordinatorlayout.behavior.HeaderFloatBehavior</string>
+    <string name="header_scrolling_behavior">com.android.ui.coordinatorlayout.behavior.HeaderScrollingBehavior</string>
+    <string name="header_float_behavior">com.android.ui.coordinatorlayout.behavior.HeaderFloatBehavior</string>
 </resources>

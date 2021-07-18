@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.android.customview">
+    package="com.android.ui">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
-        android:name=".App"
+        android:name="com.android.ui.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_app"
         android:label="@string/app_name"
@@ -18,42 +18,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.android.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".touchevent.TouchEventActivity" />
-        <activity android:name=".touchevent.TextActivity" />
-        <activity android:name=".viewpager.ViewPagerActivity" />
-        <activity android:name=".viewpager.VPFragmentActivity" />
-        <activity android:name=".viewpager.VPInfiniteActivity" />
-        <activity android:name=".viewpager.VPInfiniteActivity2" />
-        <activity android:name=".calculator.CalculatorActivity" />
-        <activity android:name=".view.StyleActivity" />
-        <activity android:name=".recorder.RecorderActivity" />
-        <activity android:name=".skin.ZipActivity" />
-        <activity android:name=".view.ViewActivity" />
-        <activity android:name=".view.CanvasActivity" />
-        <activity android:name=".view.textview.StrokeTextViewActivity" />
-        <activity android:name=".material.behavior.BehaviorActivity" />
-        <activity android:name=".material.behavior2.GaodeBottomSheetActivity" />
-        <activity android:name=".material.behavior3.SetCarLocationActivity" />
-        <activity android:name=".material.bottomsheet.BottomSheetActivity" />
-        <activity android:name=".material.bottomsheet2.BottomSheetActivity2" />
-        <activity android:name=".nestedscroll.NestedScrollActivity" />
-        <activity android:name=".path.PathActivity" />
-        <activity android:name=".path.flower.PathMeasureFlowerActivity" />
-        <activity android:name=".path.progress.PathMeasureProgressActivity" />
-        <activity android:name=".path.waterwave.PathWaterWaveActivity" />
-        <activity android:name=".design.CollapseActivity" />
-        <activity android:name=".design.tablayout.TabLayoutActivity" />
-        <activity android:name=".view.CustomActivity" />
+        <activity android:name="com.android.ui.touchevent.TouchEventActivity" />
+        <activity android:name="com.android.ui.touchevent.TextActivity" />
+        <activity android:name="com.android.ui.viewpager.ViewPagerActivity" />
+        <activity android:name="com.android.ui.viewpager.VPFragmentActivity" />
+        <activity android:name="com.android.ui.viewpager.VPInfiniteActivity" />
+        <activity android:name="com.android.ui.viewpager.VPInfiniteActivity2" />
+        <activity android:name="com.android.ui.calculator.CalculatorActivity" />
+        <activity android:name="com.android.ui.view.StyleActivity" />
+        <activity android:name="com.android.ui.recorder.RecorderActivity" />
+        <activity android:name="com.android.ui.skin.ZipActivity" />
+        <activity android:name="com.android.ui.view.ViewActivity" />
+        <activity android:name="com.android.ui.view.CanvasActivity" />
+        <activity android:name="com.android.ui.view.textview.StrokeTextViewActivity" />
+        <activity android:name="com.android.ui.material.behavior.BehaviorActivity" />
+        <activity android:name="com.android.ui.material.behavior2.GaodeBottomSheetActivity" />
+        <activity android:name="com.android.ui.material.behavior3.SetCarLocationActivity" />
+        <activity android:name="com.android.ui.material.bottomsheet.BottomSheetActivity" />
+        <activity android:name="com.android.ui.material.bottomsheet2.BottomSheetActivity2" />
+        <activity android:name="com.android.ui.nestedscroll.NestedScrollActivity" />
+        <activity android:name="com.android.ui.path.PathActivity" />
+        <activity android:name="com.android.ui.path.flower.PathMeasureFlowerActivity" />
+        <activity android:name="com.android.ui.path.progress.PathMeasureProgressActivity" />
+        <activity android:name="com.android.ui.path.waterwave.PathWaterWaveActivity" />
+        <activity android:name="com.android.ui.design.CollapseActivity" />
+        <activity android:name="com.android.ui.design.tablayout.TabLayoutActivity" />
+        <activity android:name="com.android.ui.view.CustomActivity" />
 
         <activity
-            android:name=".activitypart.PartActivity"
+            android:name="com.android.ui.activitypart.PartActivity"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>

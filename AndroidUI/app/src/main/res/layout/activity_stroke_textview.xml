@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.android.customview.view.textview.InnerStrokeTextView
+    <com.android.ui.view.textview.InnerStrokeTextView
         android:id="@+id/text_inner_stroke"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,7 +16,7 @@
         app:textStrokeColor="#ff0000"
         app:textStrokeWidth="1dp" />
 
-    <com.android.customview.view.textview.OuterStrokeTextView
+    <com.android.ui.view.textview.OuterStrokeTextView
         android:id="@+id/text_outer_stroke"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
         app:outlineColor="#ff0000"
         app:outlineWidth="4dp" />
 
-    <com.android.customview.view.textview.FlickTextView
+    <com.android.ui.view.textview.FlickTextView
         android:id="@+id/text_flick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

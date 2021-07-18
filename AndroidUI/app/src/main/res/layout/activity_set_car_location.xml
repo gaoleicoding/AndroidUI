@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/map_car_location"
-        android:name="com.android.customview.material.behavior3.MapFragment"
+        android:name="com.android.ui.material.behavior3.MapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

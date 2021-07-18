@@ -27,7 +27,7 @@
             android:layout_height="1dp"
             android:background="#ccc"
             />
-        <com.android.customview.recorder.view.AudioRecorderButton
+        <com.android.ui.recorder.view.AudioRecorderButton
             android:id="@+id/id_recorder_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

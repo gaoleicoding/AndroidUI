@@ -9,7 +9,7 @@
         android:onClick="show"
         android:text="SHOW" />
 
-    <com.android.customview.path.flower.FlowerView
+    <com.android.ui.path.flower.FlowerView
         android:id="@+id/fllower"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

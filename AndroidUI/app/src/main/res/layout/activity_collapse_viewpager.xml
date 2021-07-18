@@ -29,7 +29,7 @@
                 app:layout_collapseParallaxMultiplier="0.7"
                 app:layout_scrollFlags="scroll|enterAlways" />
             <!--这个地方必须用ToolBar，不然不能够固定作为TitleView-->
-            <com.android.customview.design.view.SimpleToolbar
+            <com.android.ui.design.view.SimpleToolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
