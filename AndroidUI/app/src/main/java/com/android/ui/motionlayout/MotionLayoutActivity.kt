@@ -1,4 +1,4 @@
-package com.android.ui.activitypart
+package com.android.ui.motionlayout
 
 import android.animation.ObjectAnimator
 import android.content.Intent
@@ -19,7 +19,7 @@ import com.java.mylibrary.InfoDialog
 import kotlinx.android.synthetic.main.activity_part.*
 
 
-class PartActivity : AppCompatActivity() {
+class MotionLayoutActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -66,11 +66,11 @@ class PartActivity : AppCompatActivity() {
                 override fun onClick(v: View?) {
                     when (v!!.getId()) {
                         com.android.ui.R.id.tv_one ->
-                            Toast.makeText(this@PartActivity, "国家", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@MotionLayoutActivity, "国家", Toast.LENGTH_SHORT).show()
                         com.android.ui.R.id.tv_two ->
-                            Toast.makeText(this@PartActivity, "联盟", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@MotionLayoutActivity, "联盟", Toast.LENGTH_SHORT).show()
                         com.android.ui.R.id.tv_three ->
-                            Toast.makeText(this@PartActivity, "其它", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@MotionLayoutActivity, "其它", Toast.LENGTH_SHORT).show()
 
                     }
                 }

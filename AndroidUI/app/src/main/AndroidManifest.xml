@@ -53,7 +53,7 @@
         <activity android:name="com.android.ui.view.CustomActivity" />
 
         <activity
-            android:name="com.android.ui.activitypart.PartActivity"
+            android:name="com.android.ui.activity.PartActivity"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
