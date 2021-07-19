@@ -62,9 +62,61 @@
             <enum name="round" value="2" />
         </attr>
     </declare-styleable>
+
     <style name="baike_tab_txt">
         <item name="android:textColor">@color/color_8A8FA4</item>
         <item name="android:textSize">14sp</item>
         <item name="android:singleLine">true</item>
     </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <declare-styleable name="TabLayout">
+        <!--        tabSelectedTextColor 不设置 没有颜色变化动画-->
+        <!--        text选择时的文字大小 不设置 没有字体缩放动画-->
+        <attr name="tabSelectedTextSize" format="dimension" />
+        <!--        text的默认文字大小 -->
+        <attr name="tabTextSize" format="dimension" />
+        <!--        Icon选择时的颜色 不设置 没有图标颜色变化动画-->
+        <attr name="tabSelectedIconTint" format="color" />
+        <!--        tabIconSize 相当于 tabIconWidth 和 tabIconHeight 设置相同的值
+                    使用tabIconSize ，tabIconWidth和tabIconHeight的设置将不起作用
+        -->
+        <!--        相当于同时设置图标的宽和高，宽=高 -->
+        <attr name="tabIconSize" format="dimension">
+            <enum name="fill_parent" value="-1" />
+            <!-- The view should be as big as its parent (minus padding).
+                 Introduced in API Level 8. -->
+            <enum name="match_parent" value="-1" />
+            <!-- The view should be only big enough to enclose its content (plus padding). -->
+            <enum name="wrap_content" value="-2" />
+        </attr>
+
+        <attr name="tabIconWidth" format="dimension">
+            <enum name="fill_parent" value="-1" />
+            <!-- The view should be as big as its parent (minus padding).
+                 Introduced in API Level 8. -->
+            <enum name="match_parent" value="-1" />
+            <!-- The view should be only big enough to enclose its content (plus padding). -->
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="tabIconHeight" format="dimension">
+            <enum name="fill_parent" value="-1" />
+            <!-- The view should be as big as its parent (minus padding).
+                 Introduced in API Level 8. -->
+            <enum name="match_parent" value="-1" />
+            <!-- The view should be only big enough to enclose its content (plus padding). -->
+            <enum name="wrap_content" value="-2" />
+        </attr>
+
+        <!--icon选择时的大小是默认大小的倍数 不设置没有缩放动画-->
+        <attr name="tabIconScale" format="float" />
+        <!--背景颜色。如设置则 tabBackground将不起作用。同时设置才有背景渐变动画-->
+        <attr name="tabItemBackground" format="color" />
+        <!--        选择时的背景-->
+        <attr name="tabItemSelectedBackground" format="color" />
+
+    </declare-styleable>
 </resources>

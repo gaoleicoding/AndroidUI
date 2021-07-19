@@ -1,5 +1,6 @@
 package com.android.ui.design.tablayout
 
+import android.content.Intent
 import android.graphics.Typeface
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.viewpager2.widget.ViewPager2
 import com.android.ui.R
+import com.android.ui.design.tablayout.custom.CustomTabActivity
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 
@@ -100,5 +102,7 @@ class TabLayoutActivity : AppCompatActivity() {
         return view;
     }
 
-
+    fun gotoCustomTabLayout(view: View) {
+        startActivity(Intent(this@TabLayoutActivity, CustomTabActivity::class.java))
+    }
 }

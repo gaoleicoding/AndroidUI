@@ -5,13 +5,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gotoCustomTabLayout"
+        android:text="CustomTabLayout" />
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/baike_second_tablayout"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        app:tabBackground="@drawable/tab_selector"
-        app:tabIndicatorHeight="0dp"
+        app:tabIndicator="@drawable/tab_indicator_layout"
+        app:tabIndicatorColor="#FC6600"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorHeight="2dp"
         app:tabMode="scrollable"
         app:tabRippleColor="@android:color/transparent" />
 
@@ -25,4 +32,5 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
+
 </LinearLayout>

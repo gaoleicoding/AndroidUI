@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/activity_about_top"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/grey_level_1">
+
+        <ImageView
+            android:id="@+id/about_top_navigation_bar_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="4dp"
+            android:contentDescription="back"
+            android:padding="12dp"
+            app:srcCompat="@drawable/icon_black_back"
+            app:tint="@android:color/white" />
+
+        <TextView
+            android:id="@+id/about_top_navigation_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="tabs"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <com.android.ui.design.tablayout.custom.TabLayout
+        android:id="@+id/activity_test_tabs_tl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIconHeight="18dp"
+        app:tabIconScale="1.5"
+        app:tabIconTint="#D5FA3030"
+        app:tabIconWidth="18dp"
+        app:tabIndicatorColor="@color/grey_level_1"
+        app:tabIndicatorFullWidth="false"
+        app:tabInlineLabel="true"
+        app:tabItemBackground="#AFAEAE"
+        app:tabItemSelectedBackground="#ffffff"
+        app:tabMode="scrollable"
+        app:tabSelectedIconTint="@color/grey_level_1"
+        app:tabSelectedTextColor="#2b952b"
+        app:tabSelectedTextSize="26sp"
+        app:tabTextColor="#D5FA3030"
+        app:tabTextSize="18sp" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/activity_test_tabs_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" />
+
+</LinearLayout>
