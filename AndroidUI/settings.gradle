@@ -1,3 +1,4 @@
 include ':app', ':mylibrary'
 include ':transition'
 include ':motionlayout'
+include ':motionlayout2'
