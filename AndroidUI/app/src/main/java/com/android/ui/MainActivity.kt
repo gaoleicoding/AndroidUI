@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.android.ui.activity.PartActivity
 import com.android.ui.adapter.DividerItemDecoration
 import com.android.ui.adapter.ItemAdapter
-import com.android.ui.motionlayout.MotionLayoutActivity
 import com.android.ui.calculator.CalculatorActivity
 import com.android.ui.design.CollapseActivity
 import com.android.ui.design.tablayout.TabLayoutActivity
@@ -52,7 +51,6 @@ class MainActivity : AppCompatActivity() {
         PartActivity::class.java,
         ViewActivity::class.java,
         ZipActivity::class.java,
-        MotionLayoutActivity::class.java,
         RecorderActivity::class.java,
         SetCarLocationActivity::class.java,
         BottomSheetActivity::class.java,
