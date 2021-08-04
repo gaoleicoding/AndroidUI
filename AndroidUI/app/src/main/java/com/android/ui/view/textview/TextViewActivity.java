@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import com.android.ui.R;
 
-public class StrokeTextViewActivity extends Activity {
+public class TextViewActivity extends Activity {
 
     private TextView tvOuterStroke;
 

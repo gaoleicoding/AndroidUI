@@ -1,4 +1,4 @@
-package com.android.ui.design.view;
+package com.android.ui.design.collapse;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;

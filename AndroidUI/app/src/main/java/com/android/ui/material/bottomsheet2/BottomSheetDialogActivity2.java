@@ -10,7 +10,8 @@ import com.android.ui.R;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 
-public class BottomSheetActivity2 extends AppCompatActivity {
+
+public class BottomSheetDialogActivity2 extends AppCompatActivity {
     BottomSheetBehavior behavior;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +43,7 @@ public class BottomSheetActivity2 extends AppCompatActivity {
                 break;
             case R.id.button1:
                 BottomSheetDialog mBottomSheetDialog = new BottomSheetDialog(this);
-                View view = getLayoutInflater().inflate(R.layout.dialog_bottom_sheet, null);
+                View view = getLayoutInflater().inflate(R.layout.dialog_bottom_sheet2, null);
                 mBottomSheetDialog.setContentView(view);
                 mBottomSheetDialog.show();
                 break;

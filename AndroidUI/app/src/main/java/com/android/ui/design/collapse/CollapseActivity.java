@@ -1,4 +1,4 @@
-package com.android.ui.design;
+package com.android.ui.design.collapse;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -21,7 +21,6 @@ public class CollapseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_collapse);
-
 
         collapsingToolbarLayout = findViewById(R.id.main3_CollapsingToolbarLayout);
         toolbar = findViewById(R.id.main3_toolbar);

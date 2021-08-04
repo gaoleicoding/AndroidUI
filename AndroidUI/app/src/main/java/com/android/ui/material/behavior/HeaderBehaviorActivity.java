@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.ui.R;
 
-public class BehaviorActivity extends AppCompatActivity {
+public class HeaderBehaviorActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
 

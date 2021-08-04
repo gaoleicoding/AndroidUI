@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.ui.R;
 
-public class BottomSheetActivity extends AppCompatActivity {
+public class BottomSheetDialogActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

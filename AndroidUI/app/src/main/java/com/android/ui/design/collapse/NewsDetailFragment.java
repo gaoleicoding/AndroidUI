@@ -1,4 +1,4 @@
-package com.android.ui.design;
+package com.android.ui.design.collapse;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
