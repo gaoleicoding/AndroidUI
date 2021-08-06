@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/CMakeLists.txt",
+    "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/tyc/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/tyc/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "gifjni-Debug-x86": {
+      "artifactName": "gifjni",
+      "buildCommand": "/Users/tyc/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86\" gifjni",
+      "abi": "x86",
+      "output": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/build/intermediates/cmake/debug/obj/x86/libgifjni.so",
+      "runtimeFiles": []
+    }
+  }
+}

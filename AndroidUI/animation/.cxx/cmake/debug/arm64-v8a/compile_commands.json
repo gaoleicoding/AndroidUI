@@ -1,0 +1,91 @@
+[
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/BitmapDecoderJNI.cpp.o -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/BitmapDecoderJNI.cpp",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/BitmapDecoderJNI.cpp"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/FrameSequence.cpp.o -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/FrameSequence.cpp",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/FrameSequence.cpp"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/FrameSequenceJNI.cpp.o -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/FrameSequenceJNI.cpp",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/FrameSequenceJNI.cpp"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/FrameSequence_gif.cpp.o -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/FrameSequence_gif.cpp",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/FrameSequence_gif.cpp"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/JNIHelpers.cpp.o -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/JNIHelpers.cpp",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/JNIHelpers.cpp"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/Registry.cpp.o -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/Registry.cpp",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/Registry.cpp"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/Stream.cpp.o -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/Stream.cpp",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/Stream.cpp"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/giflib/dgif_lib.c.o   -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/dgif_lib.c",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/dgif_lib.c"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/giflib/egif_lib.c.o   -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/egif_lib.c",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/egif_lib.c"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/giflib/gif_err.c.o   -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_err.c",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_err.c"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/giflib/gif_font.c.o   -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_font.c",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_font.c"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/giflib/gif_hash.c.o   -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_hash.c",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_hash.c"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/giflib/gifalloc.c.o   -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gifalloc.c",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gifalloc.c"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/giflib/openbsd-reallocarray.c.o   -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/openbsd-reallocarray.c",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/openbsd-reallocarray.c"
+},
+
+{
+  "directory": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a",
+  "command": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgifjni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/gifjni.dir/giflib/quantize.c.o   -c /Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/quantize.c",
+  "file": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/quantize.c"
+}
+]

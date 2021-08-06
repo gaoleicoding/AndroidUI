@@ -1,0 +1,118 @@
+
+plugins{
+    id 'com.android.application'
+    id  'kotlin-android'
+    id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
+}
+
+android {
+
+    compileSdkVersion Config.compileSdkVersion
+    buildToolsVersion Config.buildToolsVersion
+
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    defaultConfig {
+        applicationId Config.applicationId
+        minSdkVersion Config.minSdkVersion
+        targetSdkVersion Config.targetSdkVersion
+        versionCode Config.versionCode
+        versionName Config.versionName
+
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }
+    }
+    signingConfigs {
+        release {
+            keyAlias 'jack'
+            keyPassword '123456'
+            storeFile file('../jack.keystore')
+            storePassword '123456'
+        }
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            ndk {
+                abiFilters 'armeabi-v7a','arm64-v8a', 'x86'
+            }
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            ndk {
+                abiFilters 'armeabi-v7a','arm64-v8a'
+            }
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    compileOptions {
+        sourceCompatibility Config.sourceCompatibilityVersion
+        targetCompatibility Config.targetCompatibilityVersion
+    }
+
+
+    dataBinding {
+        enabled = true
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.10.2"
+        }
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            output.outputFileName = "Animation_${variant.buildType.name}_${versionCode}_${versionName}.apk"
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    testImplementation BuildDependencies.junit
+
+    implementation AndroidX.appCompat
+    implementation AndroidX.multidex
+    implementation AndroidX.material
+    implementation AndroidX.recyclerview
+    implementation AndroidX.cardview
+    implementation AndroidX.annotationX
+    implementation AndroidX.constraintlayout
+    implementation AndroidX.core
+    implementation AndroidX.coreKtx
+
+    implementation BuildDependencies.photoView
+    implementation BuildDependencies.immersionbar
+    implementation BuildDependencies.glide
+    kapt BuildDependencies.glideCompiler
+    implementation BuildDependencies.butterknife
+    kapt BuildDependencies.butterknifeCompiler
+    implementation BuildDependencies.magicIndicator
+    implementation BuildDependencies.lottie
+    implementation BuildDependencies.commonHelper
+    implementation BuildDependencies.circleImageView
+    implementation BuildDependencies.typeBuilder
+    implementation BuildDependencies.gson
+    implementation BuildDependencies.rxjava2
+    implementation BuildDependencies.rxAndroid
+    implementation (BuildDependencies.ultraViewpager) {
+        transitive = true
+    }
+    implementation BuildDependencies.SVGAPlayer
+}

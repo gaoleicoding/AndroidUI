@@ -2,6 +2,7 @@ package com.android.ui.material.bottomsheet2;
 
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -15,6 +16,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 public class BottomSheetDialogActivity2 extends AppCompatActivity {
     BottomSheetBehavior behavior;
+    String TAG="BottomSheetDialogActivity2";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,11 +27,17 @@ public class BottomSheetDialogActivity2 extends AppCompatActivity {
         behavior.setBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
             @Override
             public void onStateChanged(@NonNull View bottomSheet, int newState) {
+                Log.d(TAG,"newState: "+newState);
+                if(newState==BottomSheetBehavior.STATE_EXPANDED){
+                    bottomSheet.setBackgroundColor(getResources().getColor(R.color.color_99000000));
+                }
                 //这里是bottomSheet 状态的改变
             }
 
             @Override
             public void onSlide(@NonNull View bottomSheet, float slideOffset) {
+                Log.d(TAG,"slideOffset: "+slideOffset);
+
                 //这里是拖拽中的回调，根据slideOffset可以做一些动画
             }
         });

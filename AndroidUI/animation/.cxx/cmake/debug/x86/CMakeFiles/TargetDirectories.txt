@@ -1,0 +1,3 @@
+/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86/CMakeFiles/gifjni.dir

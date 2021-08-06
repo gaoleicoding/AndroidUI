@@ -1,0 +1,7 @@
+Executable : /Users/tyc/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/arm64-v8a
+gifjni
+jvmArgs : 
+
