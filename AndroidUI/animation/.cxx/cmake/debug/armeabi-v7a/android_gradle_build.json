@@ -1,133 +1,133 @@
 {
   "stringTable": {
-    "0": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/armeabi-v7a",
-    "1": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgifjni_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "0": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dgifjni_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
     "2": "null"
   },
   "buildFiles": [
-    "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/CMakeLists.txt",
-    "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-    "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+    "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/CMakeLists.txt",
+    "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
   ],
   "cleanCommands": [
-    "/Users/tyc/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/armeabi-v7a\" clean"
+    "/Users/gaolei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/armeabi-v7a\" clean"
   ],
-  "buildTargetsCommand": "/Users/tyc/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/gaolei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "gifjni-Debug-armeabi-v7a": {
-      "buildCommand": "/Users/tyc/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/armeabi-v7a\" gifjni",
+      "buildCommand": "/Users/gaolei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/armeabi-v7a\" gifjni",
       "buildType": "debug",
-      "toolchain": "1267552032",
+      "toolchain": "1770782804",
       "abi": "armeabi-v7a",
       "artifactName": "gifjni",
       "files": [
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/dgif_lib.c",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/dgif_lib.c",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/egif_lib.c",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/egif_lib.c",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_err.c",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_err.c",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_font.c",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_font.c",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_hash.c",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_hash.c",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gifalloc.c",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gifalloc.c",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/openbsd-reallocarray.c",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/openbsd-reallocarray.c",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/quantize.c",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/quantize.c",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/README.version",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/README.version",
           "flagsOrdinal": 2,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/BitmapDecoderJNI.cpp",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/BitmapDecoderJNI.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/FrameSequence.cpp",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/FrameSequence.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/FrameSequenceJNI.cpp",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/FrameSequenceJNI.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/FrameSequence_gif.cpp",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/FrameSequence_gif.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/JNIHelpers.cpp",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/JNIHelpers.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/Registry.cpp",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/Registry.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/Stream.cpp",
+          "src": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/Stream.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [
         {
-          "header": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/config.h",
+          "header": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/config.h",
           "workingDirectoryOrdinal": 0
         },
         {
-          "header": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_hash.h",
+          "header": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_hash.h",
           "workingDirectoryOrdinal": 0
         },
         {
-          "header": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_lib.h",
+          "header": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_lib.h",
           "workingDirectoryOrdinal": 0
         },
         {
-          "header": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_lib_private.h",
+          "header": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/giflib/gif_lib_private.h",
           "workingDirectoryOrdinal": 0
         }
       ],
-      "output": "/Users/tyc/Gaolei/Android/Github/AndroidUI/AndroidUI/animation/build/intermediates/cmake/debug/obj/armeabi-v7a/libgifjni.so",
+      "output": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/build/intermediates/cmake/debug/obj/armeabi-v7a/libgifjni.so",
       "runtimeFiles": []
     }
   },
   "toolchains": {
-    "1267552032": {
-      "cCompilerExecutable": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
-      "cppCompilerExecutable": "/Users/tyc/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    "1770782804": {
+      "cCompilerExecutable": "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
     }
   },
   "cFileExtensions": [

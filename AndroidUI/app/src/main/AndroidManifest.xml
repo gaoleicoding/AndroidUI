@@ -53,6 +53,7 @@
         <activity android:name="com.android.ui.design.tablayout.TabLayoutActivity" />
         <activity android:name="com.android.ui.view.CustomActivity" />
         <activity android:name=".design.tablayout.custom.CustomTabActivity" />
+        <activity android:name=".view.maskfilter.MaskFilterActivity" />
 
         <activity
             android:name="com.android.ui.activity.PartActivity"

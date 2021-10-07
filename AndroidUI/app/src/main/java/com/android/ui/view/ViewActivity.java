@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.android.ui.R;
+import com.android.ui.view.maskfilter.MaskFilterActivity;
 import com.android.ui.view.textview.TextViewActivity;
 
 public class ViewActivity extends Activity {
@@ -29,5 +30,8 @@ public class ViewActivity extends Activity {
 
     public void openCustomActivity(View view) {
         startActivity(new Intent(this, CustomActivity.class));
+    }
+    public void openMaskFilterActivity(View view) {
+        startActivity(new Intent(this, MaskFilterActivity.class));
     }
 }
