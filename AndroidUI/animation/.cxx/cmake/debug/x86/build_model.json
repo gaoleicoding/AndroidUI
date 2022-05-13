@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86",
-    "cmakeServerLogFile": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86/cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cxx/debug/x86",
+    "cmakeArtifactsBaseFolder": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\.cxx\\cmake\\debug\\x86",
+    "cmakeServerLogFile": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\.cxx\\cmake\\debug\\x86\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\.cxx\\cxx\\debug\\x86",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,13 +15,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86",
-      "cmakeToolchain": "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-      "cmakeExecutable": "/Users/gaolei/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+      "buildRoot": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\.cxx\\cmake\\debug\\x86",
+      "cmakeToolchain": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+      "cmakeExecutable": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/prefab/x86/prefab"
+          "value": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\.cxx\\cmake\\debug\\prefab\\x86\\prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -29,7 +29,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake"
+          "value": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -37,7 +37,7 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462"
+          "value": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462"
         },
         {
           "name": "ANDROID_PLATFORM",
@@ -49,7 +49,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462"
+          "value": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -57,11 +57,11 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/build/intermediates/cmake/debug/obj/x86"
+          "value": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\build\\intermediates\\cmake\\debug\\obj\\x86"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
-          "value": "/Users/gaolei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+          "value": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
         },
         {
           "name": "CMAKE_SYSTEM_NAME",
@@ -74,14 +74,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86",
+  "cxxBuildFolder": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\.cxx\\cmake\\debug\\x86",
   "info": {
     "abi": "X86",
     "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86",
+  "originalCxxBuildFolder": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\.cxx\\cmake\\debug\\x86",
   "variant": {
     "buildSystemArgumentList": [],
     "buildTargetSet": [],
@@ -95,24 +95,24 @@
     "module": {
       "buildSystem": "CMAKE",
       "cmake": {
-        "cmakeExe": "/Users/gaolei/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+        "cmakeExe": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
         "minimumCmakeVersion": "3.10.2",
-        "ninjaExe": "/Users/gaolei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+        "ninjaExe": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
       },
-      "cmakeToolchainFile": "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-      "cxxFolder": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx",
+      "cmakeToolchainFile": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+      "cxxFolder": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\.cxx",
       "gradleModulePathName": ":animation",
-      "intermediatesFolder": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/build/intermediates",
-      "makeFile": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/CMakeLists.txt",
-      "moduleBuildFile": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/build.gradle",
-      "moduleRootFolder": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation",
+      "intermediatesFolder": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\build\\intermediates",
+      "makeFile": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\src\\main\\cpp\\CMakeLists.txt",
+      "moduleBuildFile": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\build.gradle",
+      "moduleRootFolder": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
         "X86",
         "X86_64"
       ],
-      "ndkFolder": "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462",
+      "ndkFolder": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462",
       "ndkMetaAbiList": [
         {
           "abi": "ARMEABI_V7A",
@@ -169,37 +169,37 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.1.6352462",
       "project": {
-        "compilerSettingsCacheFolder": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/.cxx",
-        "cxxFolder": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/.cxx",
+        "compilerSettingsCacheFolder": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\.cxx",
+        "cxxFolder": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI",
-        "sdkFolder": "/Users/gaolei/Library/Android/sdk",
+        "rootBuildGradleFolder": "D:\\Android\\Github\\AndroidUI\\AndroidUI",
+        "sdkFolder": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk",
         "isPrefabEnabled": false
       },
       "splitsAbiFilterSet": [],
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
-          "ARM64_V8A": "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
-          "X86": "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
-          "X86_64": "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+          "ARMEABI_V7A": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       }
     },
-    "objFolder": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/build/intermediates/cmake/debug/obj",
+    "objFolder": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\build\\intermediates\\cmake\\debug\\obj",
     "variantName": "debug",
     "validAbiList": [
       "ARMEABI_V7A",
       "ARM64_V8A",
       "X86"
     ],
-    "prefabDirectory": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/prefab",
+    "prefabDirectory": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\.cxx\\cmake\\debug\\prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/prefab/x86"
+  "prefabFolder": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\.cxx\\cmake\\debug\\prefab\\x86"
 }

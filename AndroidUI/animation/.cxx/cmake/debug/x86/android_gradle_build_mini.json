@@ -1,19 +1,19 @@
 {
   "buildFiles": [
-    "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/src/main/cpp/CMakeLists.txt",
-    "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-    "/Users/gaolei/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+    "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
   ],
   "cleanCommands": [
-    "/Users/gaolei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86\" clean"
+    "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\.cxx\\cmake\\debug\\x86\" clean"
   ],
-  "buildTargetsCommand": "/Users/gaolei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "gifjni-Debug-x86": {
       "artifactName": "gifjni",
-      "buildCommand": "/Users/gaolei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/.cxx/cmake/debug/x86\" gifjni",
+      "buildCommand": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\.cxx\\cmake\\debug\\x86\" gifjni",
       "abi": "x86",
-      "output": "/Volumes/GaoLei/Android/GIthub/AndroidUI/AndroidUI/animation/build/intermediates/cmake/debug/obj/x86/libgifjni.so",
+      "output": "D:\\Android\\Github\\AndroidUI\\AndroidUI\\animation\\build\\intermediates\\cmake\\debug\\obj\\x86\\libgifjni.so",
       "runtimeFiles": []
     }
   }
