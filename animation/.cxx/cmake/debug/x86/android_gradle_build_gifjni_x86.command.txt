@@ -1,0 +1,7 @@
+Executable : C:\Users\admin\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\Android\Github\AndroidUI\AndroidUI\animation\.cxx\cmake\debug\x86
+gifjni
+jvmArgs : 
+

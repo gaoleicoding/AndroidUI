@@ -1,0 +1,17 @@
+# ninja log v5
+162	931	674133986	CMakeFiles/gifjni.dir/JNIHelpers.cpp.o	697038a8490016a9
+184	957	674133986	CMakeFiles/gifjni.dir/Registry.cpp.o	a0de82f7d8c4e327
+51	972	674133986	CMakeFiles/gifjni.dir/FrameSequence.cpp.o	914155ad2aa76d1f
+210	983	674133986	CMakeFiles/gifjni.dir/Stream.cpp.o	595bc0a97425dc74
+231	992	674133986	CMakeFiles/gifjni.dir/giflib/gif_err.c.o	944c2bb6c0008bce
+24	999	674133986	CMakeFiles/gifjni.dir/FrameSequenceJNI.cpp.o	d7dc9db6ca7084ae
+224	1060	674133986	CMakeFiles/gifjni.dir/giflib/gif_hash.c.o	3d0b77f2e507fc43
+60	1093	674133986	CMakeFiles/gifjni.dir/giflib/dgif_lib.c.o	508bffa34e7174cf
+152	1094	674133986	CMakeFiles/gifjni.dir/FrameSequence_gif.cpp.o	e40b948e915c57f7
+83	1098	674133986	CMakeFiles/gifjni.dir/BitmapDecoderJNI.cpp.o	e4cce844ef4c2a36
+992	1252	674133986	CMakeFiles/gifjni.dir/giflib/openbsd-reallocarray.c.o	e303e33e03435751
+932	1276	674133986	CMakeFiles/gifjni.dir/giflib/gif_font.c.o	ed24c5f76c8f3aef
+972	1294	674133986	CMakeFiles/gifjni.dir/giflib/gifalloc.c.o	9230ff4c8eea0216
+984	1310	674133986	CMakeFiles/gifjni.dir/giflib/quantize.c.o	7f07187f964c558b
+957	1405	674133986	CMakeFiles/gifjni.dir/giflib/egif_lib.c.o	64c8bd2faac5c762
+1405	1732	674133987	D:/Android/Github/AndroidUI/AndroidUI/animation/build/intermediates/cmake/debug/obj/x86/libgifjni.so	b182b7c311f83f80

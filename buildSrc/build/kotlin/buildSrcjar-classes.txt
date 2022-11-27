@@ -1,0 +1,1 @@
+D:\Android\Github\AndroidUI\AndroidUI\buildSrc\build\classes\kotlin\main\AndroidX.class;D:\Android\Github\AndroidUI\AndroidUI\buildSrc\build\classes\kotlin\main\BuildDependencies.class;D:\Android\Github\AndroidUI\AndroidUI\buildSrc\build\classes\kotlin\main\Config.class;D:\Android\Github\AndroidUI\AndroidUI\buildSrc\build\classes\kotlin\main\Versions.class

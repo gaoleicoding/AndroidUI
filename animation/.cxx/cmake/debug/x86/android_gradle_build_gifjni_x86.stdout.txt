@@ -1,0 +1,17 @@
+ninja: Entering directory `D:\Android\Github\AndroidUI\AndroidUI\animation\.cxx\cmake\debug\x86'
+[1/16] Building CXX object CMakeFiles/gifjni.dir/JNIHelpers.cpp.o
+[2/16] Building CXX object CMakeFiles/gifjni.dir/Registry.cpp.o
+[3/16] Building CXX object CMakeFiles/gifjni.dir/FrameSequence.cpp.o
+[4/16] Building CXX object CMakeFiles/gifjni.dir/Stream.cpp.o
+[5/16] Building C object CMakeFiles/gifjni.dir/giflib/gif_err.c.o
+[6/16] Building CXX object CMakeFiles/gifjni.dir/FrameSequenceJNI.cpp.o
+[7/16] Building C object CMakeFiles/gifjni.dir/giflib/gif_hash.c.o
+[8/16] Building C object CMakeFiles/gifjni.dir/giflib/dgif_lib.c.o
+[9/16] Building CXX object CMakeFiles/gifjni.dir/FrameSequence_gif.cpp.o
+[10/16] Building CXX object CMakeFiles/gifjni.dir/BitmapDecoderJNI.cpp.o
+[11/16] Building C object CMakeFiles/gifjni.dir/giflib/openbsd-reallocarray.c.o
+[12/16] Building C object CMakeFiles/gifjni.dir/giflib/gif_font.c.o
+[13/16] Building C object CMakeFiles/gifjni.dir/giflib/gifalloc.c.o
+[14/16] Building C object CMakeFiles/gifjni.dir/giflib/quantize.c.o
+[15/16] Building C object CMakeFiles/gifjni.dir/giflib/egif_lib.c.o
+[16/16] Linking CXX shared library D:\Android\Github\AndroidUI\AndroidUI\animation\build\intermediates\cmake\debug\obj\x86\libgifjni.so
